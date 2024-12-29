@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.qr-generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.url-input {
+  padding: 15px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 50px;
+  padding: 10px 15px;
+}
+
+img {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('../assets/do-you-know-banner.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
